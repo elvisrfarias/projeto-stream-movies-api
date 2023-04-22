@@ -13,13 +13,13 @@ export const MovieList = styled.ul `
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 column-gap: 3rem;
-row-gap: 4rem:
+row-gap: 4rem;
 
 ul{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 3rem;
-  row-gap: 4rem:
+  row-gap: 4rem;
 }
 
 li {
