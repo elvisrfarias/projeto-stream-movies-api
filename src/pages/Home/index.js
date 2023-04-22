@@ -1,24 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container, MovieList } from './styles';
 
 const Home = () => {
-  const movies = [
-    {
-      id: 1,
-      title: 'Spider Man',
-      img_url: 'https://img.elo7.com.br/product/zoom/2677953/big-poster-filme-homem-aranha-3-2007-lo02-tamanho-90x60-cm-homem-aranha.jpg'
-    },
-    {
-      id: 2,
-      title: 'Spider Man',
-      img_url: 'https://img.elo7.com.br/product/zoom/2677953/big-poster-filme-homem-aranha-3-2007-lo02-tamanho-90x60-cm-homem-aranha.jpg'
-    },
-    {
-      id: 3,
-      title: 'Spider Man',
-      img_url: 'https://img.elo7.com.br/product/zoom/2677953/big-poster-filme-homem-aranha-3-2007-lo02-tamanho-90x60-cm-homem-aranha.jpg'
-    },
-  ]
+
+  const [movies, setMovies] = React.useState('')
+
+  useEffect(() => {
+    
+  },[])
+
   return (
     <Container>
       <h1>Hello word!</h1>
