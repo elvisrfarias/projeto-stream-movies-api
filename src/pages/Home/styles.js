@@ -35,9 +35,11 @@ li img{
 }
 
 span {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 110%;
+  text-align: center;
 }
 
 a {
